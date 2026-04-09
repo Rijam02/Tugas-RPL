@@ -1,0 +1,91 @@
+.input1 {
+    padding: 5px;
+    display: block;
+    margin-bottom: 7px;
+}
+.input2 {
+    padding: 5px;
+}
+.text-b {
+    display: inline-block;
+    width: 250px;
+    vertical-align: middle;
+}
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+.google {
+    margin-top: 50px;
+}
+.logo {
+    display: block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.search {
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.name {
+    display: inline-block;
+    vertical-align: middle;
+}
+.email {
+    display: block;
+}
+.sign-up {
+    width: 250px;
+}
+.name {
+    display: inline-block;
+    width: 95px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.email {
+    display: block;
+    width: 220px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.sign {
+    width: 250px;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.uber-box {
+    width: 300px;
+    font-family: Arial;
+}
+.uber-box h1 {
+    font-size: 24px;
+}
+.enter {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #f1f1f1;
+}
+.now {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+.for {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px;
+}

@@ -1,0 +1,146 @@
+/* 12a */
+.flex {
+    display: flex;
+}
+.box1 {
+    width: 200px;
+    background-color: lightblue;
+}
+.box2 {
+    width: 75px;
+    background-color: lightpink;
+}
+
+/* 12b */
+.flex2 {
+    display: flex;
+}
+.box3 {
+    width: 50px;
+    background-color: lightblue;
+}
+.box4 {
+    flex: 1;
+    background-color: lightpink;
+}
+.box5 {
+    width: 75px;
+    background-color: lightblue;
+}
+
+/* 12c */
+.flex3 {
+    display: flex;
+    justify-content: space-between;
+}
+.box6 {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+/* 12d */
+.flex4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border: 1px solid gray;
+}
+.box7 {
+    padding: 5 10px;
+    background-color: lightpink;
+}
+
+/* 12e */
+.menu {
+    font-family: Arial;
+    font-weight: bold;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+.notif {
+    background-color: blue;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+/* 12f */
+.navbar {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  background-color: purple;
+  padding: 10px;
+}
+.desc {
+  color: white;
+  font-weight: bold;
+}
+.search {
+  flex: 1;
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+}
+.btn-d {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* 12g */
+.container {
+    width: 300px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.img1 {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    object-fit: cover;
+}
+.info {
+    flex: 1;
+    margin-left: 10px;
+}
+.name{
+    font-family: Arial;
+    font-weight: bold;
+    margin: 0;
+    font-size: 12px;
+}
+.desc {
+    color: gray;
+    margin: 0;
+    font-size: 13px;
+}
+.status {
+   color: gray;
+   font-size: 12px;
+}
+.btn {
+    background-color: #1877f2;
+    color:white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

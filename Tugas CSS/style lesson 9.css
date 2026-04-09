@@ -1,0 +1,115 @@
+.kotak-merah {
+     width: 100px;
+     height: 100px;
+     background-color: red;
+}
+.circle-hijau {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     background-color: green;
+}
+.kartu {
+    border: 1px solid gray;
+    padding: 15px;
+    width: 250px
+}
+.youtube {
+    border: 1px solid gray;
+    background-color: black;
+    padding: 10px;
+    width: 300px
+}
+.p1 {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+    color:white;
+}
+.p2 {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 13px;
+    color:gray;
+}
+.card-tweet {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+}
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.tweet-input {
+    padding: 10px;
+    border: none;
+}
+
+.tweet {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.card-profile {
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left
+}
+.profilm {
+    width: 100%
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.add {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
+.def {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 13px;
+    color:gray;
+}
+.kartu-profile {
+    display: inline-block;
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    margin-right: 10px;
+}
+.google {
+    text-align: center;
+    margin: 10px
+}
+.logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.search {
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.lucky {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+

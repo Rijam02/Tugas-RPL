@@ -1,0 +1,103 @@
+/* 10a & 10b */
+.profile {
+    width:300px;
+}
+.img1 {
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    width: 140px;
+}
+.name{
+    font-weight: bold;
+    margin: 0;
+}
+.desc {
+    color: gray;
+    margin: 0;
+    font-size: 14px;
+}
+.bt-follow {
+    display: inline-block;
+    vertical-align: middle;
+}
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #1877f2;
+    color:white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* 10c */
+.video {
+  margin-bottom: 15px;
+}
+.thumbnail {
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+}
+.video-info {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  margin-left: 10px;
+}
+.video-title {
+  font-family: Arial;
+  font-weight: bold;
+  margin: 0;
+}
+.video-desc {
+  color: gray;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* 10d & 10e*/
+.profilm {
+    width: 100%
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.add {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
+.kartu-profile {
+    display: inline-block;
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    margin-right: 10px;
+}
+.mutual-row {
+  display: flex;
+  align-items: center;
+}
+
+.mutual-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.mutual {
+  color: gray;
+  font-size: 12px;
+}

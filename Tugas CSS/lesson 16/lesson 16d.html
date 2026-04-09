@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 16d</title>
+</head>
+<body>
+    <div class="channel-container">
+        
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=30s" target="_blank">
+            <img src="https://img.youtube.com/vi/n2RNcPRtAiY/hqdefault.jpg" class="thumbnail">
+        </a>
+
+        <div class="video-info">
+            <img src="https://yt3.googleusercontent.com/qu4TmIaYUlS41-dJ9gZ7DUR3nilvmB5_11i6OKSdvNnBNiyOusZP1bMN6ICnuxtjFBb6ioKgRQ=s160-c-k-c0x00ffffff-no-rj" class="channel">
+            <p class="text">Talking teach and AI with Google CEO Sundar Pichai!</p>
+        </div>
+        
+        <div class="tooltip">
+            <img src="https://yt3.googleusercontent.com/qu4TmIaYUlS41-dJ9gZ7DUR3nilvmB5_11i6OKSdvNnBNiyOusZP1bMN6ICnuxtjFBb6ioKgRQ=s160-c-k-c0x00ffffff-no-rj" class="channel-img">
+
+            <div>
+                <div class="toll-name">Markiplier</div>
+                <div class="toll-subs">30M Subscriber</div>
+            </div>
+        </div>
+
+    </div>
+
+    <style>
+        .channel-container {
+            position: relative;
+            display: inline-block;
+        }
+        .thumbnail {
+            width: 300px;
+            height: 200px;
+            margin-bottom: 15px;
+        }
+        .video-info {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .channel {
+            width: 45px;
+            border-radius: 50%;
+        }
+        .text {
+            width: 250px;
+            margin: 0;
+            font-family: Arial;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        .tooltip {
+            position: absolute;
+
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            background-color: white;
+            padding: 10px;
+            border-radius: 6px;
+
+            bottom: -70px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s;
+        }
+
+        .channel-container:hover .tooltip {
+            opacity: 1;
+        }
+
+        .channel-img {
+            width: 40px;
+            border-radius: 50%;
+        }
+        .tool-name {
+            margin: 0;
+            font-weight: bold;
+        }
+        .toll-subs {
+            margin: 0;
+            color: gray;
+            font-size: 12px;
+        }
+
+    </style>
+    
+</body>
+</html>

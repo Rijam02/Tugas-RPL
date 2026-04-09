@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 16a</title>
+</head>
+<body>
+    <div class="header-icon">
+        <img src="https://img.youtube.com/vi/n2RNcPRtAiY/hqdefault.jpg" class="photo">
+        <div class="tooltip">Search</div>
+    </div>
+
+    <style>
+        .header-icon {
+            position: relative;
+            display: inline-block;
+        }
+        .photo {
+            width: 300px;
+            height: 200px;
+        }
+        .tooltip {
+            position: absolute;
+            background-color: gray;
+            color: white;
+            padding: 5px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+
+            bottom: -70px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .header-icon:hover .tooltip {
+            opacity: 1;
+        }
+
+    </style>
+    
+</body>
+</html>

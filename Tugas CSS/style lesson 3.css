@@ -1,0 +1,117 @@
+.uber {
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+}
+.uber:hover {
+    opacity: 0.7;
+}
+
+.amazon {
+    background-color: rgb(255, 216, 20);
+    border-radius: 20px;
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+}
+.amazon:hover {
+    background-color: rgb(245, 205, 3);
+}
+
+.github {
+    background-color: rgb(46, 164, 79);
+    color:white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.github:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+}
+
+.boostrap1 {
+    background-color: rgb(121, 82, 179);
+    color:white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.boostrap1:hover {
+    background-color: rgb(100, 60, 150);
+}
+
+.boostrap2 {
+    background-color:white;
+    color: rgb(108, 117, 125);
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid rgb(108, 117, 125);
+    font-weight: bold;
+}
+.boostrap2:hover {
+    background-color: rgb(108, 117, 125);
+    color:white;
+}
+
+.linkedln1 {
+    background-color: rgb(10, 102, 194);
+    color:white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.linkedln1:hover {
+    background-color: rgb(0, 80, 170);
+}
+
+.linkedln2 {
+    background-color:white;
+    color:rgb(10, 102, 194);
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid rgb(10, 102, 194);
+}
+.linkedln2:hover {
+    border-width: 2px;
+}
+
+.link {
+    color:rgb(0, 113, 133);
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.harga {
+    color:rgb(0, 118, 0);
+    font-weight: bold;
+}
+.delivery {
+    color:black;
+}
+.cart {
+    background-color:rgb(255, 216, 20);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.buy {
+    background-color:rgb(255, 164, 28);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
